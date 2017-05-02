@@ -1,4 +1,3 @@
-import java.io.IOException;
 import java.util.*;
 
 /**
@@ -6,12 +5,13 @@ import java.util.*;
  */
 public class Main {
     public static void main(String[] args) {
+////////////// Задание 1 /////////////////////////////////////
+        String[]words = {"Яблоко","Яблоко","Абрикос","Авокадо","Вишня","Оливки","Манго","Папайя","Персики","Груши","Сливы","Миндаль","Кешью","Вишня","Каштан","Финики","Фундук","Кумкват","Лимон","Каштан","Оливки","Лайм"};
+        HashSet<String> wordsHash = new HashSet<String>(Arrays.asList(words));
+        System.out.println(wordsHash);
+////////////// Задание 2 ////////////////////////////////////
 
-        try {
             Window w=new Window();
-    }catch (IOException e) {
-            e.printStackTrace();
-        }
 
 
     }
